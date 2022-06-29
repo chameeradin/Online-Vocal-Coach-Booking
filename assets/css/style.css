@@ -1,0 +1,78 @@
+.nav-item a:hover {
+  color: #134785;
+}
+
+.order-form{
+  background-color: darkgray;
+}
+
+.order-form2{
+  background-color: azure;
+}
+
+.cid-qvbVxeaHRH .plan{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.describe ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.describe ul li{
+  position: relative;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  margin: 0 20px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+ .describe ul li:hover{
+  background: #0275d8;
+  box-shadow: 0 0 0 2px #333333,
+              0 0 0 2px #0275d8;
+
+}
+
+ .describe ul li  .content{
+  position: absolute;
+   margin-left: 70px;
+  bottom: 55px;
+  width: 250px;
+  background: #777777;
+  padding: 20px;
+   color: darkorange;
+  box-sizing: border-box;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateX(-50%) translateY(-50px);
+
+}
+
+ .describe ul li .content:before{
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #777777;
+   color: darkorange;
+  bottom: -8px;
+  left: 52px;
+  transform: rotate(45deg);
+}
+  .describe ul li:hover .content{
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0px);
+}
+ .describe ul li .content h5{
+  margin: 0;
+  padding: 10px;
+}
