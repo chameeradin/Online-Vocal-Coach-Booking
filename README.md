@@ -1,8 +1,8 @@
-#Vocal_result
+# Vocal Result Web App
  
- 
-#This vocal result site is build for vocal coach 
-#For users can buy a vocal coaching plan and paying on credit or debit card 
-#And can send email message to coach. 
-#Use Core PHP
-#Used packages PHPMailer, Stripe.
+This vocal result site is build for vocal coach for users can buy a vocal coaching plan and paying on credit or debit card and can send email message to coach. 
+<!-- MarkdownTOC -->
+- [Core PHP](#use-core-php)
+- [Packages](#packages)
+  - [PHPMailer](#phpmailer)
+  - [Stripe](#stripe)
